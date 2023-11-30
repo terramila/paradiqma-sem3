@@ -1,6 +1,4 @@
-/*
- Использовал структурно процедурную парадигму так как посчитал это удобнее, так как использую поиск элементов и последовательные манипуляции над ними.  
-*/
+
 
 function startGame() {
   let b1, b2, b3, b4, b5, b6, b7, b8, b9;
@@ -31,7 +29,7 @@ function startGame() {
     (b2 == "x" || b2 == "X") &&
     (b3 == "x" || b3 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Игрок X победил";
+    document.getElementById("print").innerHTML = "Player X win";
     b4btn.disabled = true;
     b5btn.disabled = true;
     b6btn.disabled = true;
@@ -47,7 +45,7 @@ function startGame() {
     (b4 == "x" || b4 == "X") &&
     (b7 == "x" || b7 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Игрок X победил";
+    document.getElementById("print").innerHTML = "Player X win";
     b2btn.disabled = true;
     b3btn.disabled = true;
     b5btn.disabled = true;
@@ -63,7 +61,7 @@ function startGame() {
     (b8 == "x" || b8 == "X") &&
     (b9 == "x" || b9 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Игрок X победил";
+    document.getElementById("print").innerHTML = "Player X win";
 
     b1btn.disabled = true;
     b2btn.disabled = true;
@@ -80,7 +78,7 @@ function startGame() {
     (b6 == "x" || b6 == "X") &&
     (b9 == "x" || b9 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Игрок X победил";
+    document.getElementById("print").innerHTML = "Player X win";
 
     b1btn.disabled = true;
     b2btn.disabled = true;
@@ -97,7 +95,7 @@ function startGame() {
     (b5 == "x" || b5 == "X") &&
     (b9 == "x" || b9 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Игрок X победил";
+    document.getElementById("print").innerHTML = "Player X win";
     b2btn.disabled = true;
     b3btn.disabled = true;
     b4btn.disabled = true;
@@ -113,7 +111,7 @@ function startGame() {
     (b5 == "x" || b5 == "X") &&
     (b7 == "x" || b7 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Игрок X победил";
+    document.getElementById("print").innerHTML = "Player X win";
     b1btn.disabled = true;
     b2btn.disabled = true;
     b4btn.disabled = true;
@@ -129,7 +127,7 @@ function startGame() {
     (b5 == "x" || b5 == "X") &&
     (b8 == "x" || b8 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Игрок X победил";
+    document.getElementById("print").innerHTML = "Player X win";
     b1btn.disabled = true;
     b2btn.disabled = true;
     b4btn.disabled = true;
@@ -145,7 +143,7 @@ function startGame() {
     (b5 == "x" || b5 == "X") &&
     (b6 == "x" || b6 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Игрок X победил";
+    document.getElementById("print").innerHTML = "Player X win";
     b1btn.disabled = true;
     b2btn.disabled = true;
     b3btn.disabled = true;
@@ -161,7 +159,7 @@ function startGame() {
     (b2 == "0" || b2 == "0") &&
     (b3 == "0" || b3 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Игрок 0 победил";
+    document.getElementById("print").innerHTML = "Player 0 win";
     b4btn.disabled = true;
     b5btn.disabled = true;
     b6btn.disabled = true;
@@ -177,7 +175,7 @@ function startGame() {
     (b4 == "0" || b4 == "0") &&
     (b7 == "0" || b7 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Игрок 0 победил";
+    document.getElementById("print").innerHTML = "Player 0 win";
     b2btn.disabled = true;
     b3btn.disabled = true;
     b5btn.disabled = true;
@@ -193,7 +191,7 @@ function startGame() {
     (b8 == "0" || b8 == "0") &&
     (b9 == "0" || b9 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Игрок 0 победил";
+    document.getElementById("print").innerHTML = "Player 0 win";
     b1btn.disabled = true;
     b2btn.disabled = true;
     b3btn.disabled = true;
@@ -209,7 +207,7 @@ function startGame() {
     (b6 == "0" || b6 == "0") &&
     (b9 == "0" || b9 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Игрок 0 победил";
+    document.getElementById("print").innerHTML = "Player 0 win";
     b1btn.disabled = true;
     b2btn.disabled = true;
     b4btn.disabled = true;
@@ -224,7 +222,7 @@ function startGame() {
     (b5 == "0" || b5 == "0") &&
     (b9 == "0" || b9 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Игрок 0 победил";
+    document.getElementById("print").innerHTML = "Player 0 win";
     b2btn.disabled = true;
     b3btn.disabled = true;
     b4btn.disabled = true;
@@ -240,7 +238,7 @@ function startGame() {
     (b5 == "0" || b5 == "0") &&
     (b7 == "0" || b7 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Игрок 0 победил";
+    document.getElementById("print").innerHTML = "Player 0 win";
     b1btn.disabled = true;
     b2btn.disabled = true;
     b4btn.disabled = true;
@@ -256,7 +254,7 @@ function startGame() {
     (b5 == "0" || b5 == "0") &&
     (b8 == "0" || b8 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Игрок 0 победил";
+    document.getElementById("print").innerHTML = "Player 0 win";
     b1btn.disabled = true;
     b3btn.disabled = true;
     b4btn.disabled = true;
@@ -272,7 +270,7 @@ function startGame() {
     (b5 == "0" || b5 == "0") &&
     (b6 == "0" || b6 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Игрок 0 победил";
+    document.getElementById("print").innerHTML = "Player 0 win";
     b1btn.disabled = true;
     b2btn.disabled = true;
     b3btn.disabled = true;
@@ -297,9 +295,9 @@ function startGame() {
     document.getElementById("print").innerHTML = "Ничья ";
   } else {
     if (flag == 1) {
-      document.getElementById("print").innerHTML = "Игрок X ходит";
+      document.getElementById("print").innerHTML = "Player X is going";
     } else {
-      document.getElementById("print").innerHTML = "Игрок 0 ходит";
+      document.getElementById("print").innerHTML = "Player 0 is going";
     }
   }
 }
